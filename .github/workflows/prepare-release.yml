@@ -1,0 +1,11 @@
+name: 'Prepare Release'
+
+on:
+  workflow_dispatch: # Allow triggering manually
+
+jobs:
+  prepare_release:
+    uses: hitobito/hitobito/.github/workflows/prepare-version.yml@feature/1975-prepare-release
+    with:
+      composition: ${{ github.event.repository.name }}
+      next_version: patch
