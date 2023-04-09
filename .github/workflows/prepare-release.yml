@@ -8,4 +8,5 @@ jobs:
     uses: hitobito/hitobito/.github/workflows/prepare-version.yml@feature/1975-prepare-release
     with:
       composition: ${{ github.event.repository.name }}
+      wagon: pro_natura
       next_version: patch
