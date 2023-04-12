@@ -10,3 +10,5 @@ jobs:
       composition: ${{ github.event.repository.name }}
       wagon: pro_natura
       next_version: patch
+    secrets:
+      TRANSIFEX_VERSION: ${{ secrets.TRANSIFEX_TOKEN }}
