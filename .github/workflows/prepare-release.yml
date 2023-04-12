@@ -11,4 +11,4 @@ jobs:
       wagon: pro_natura
       next_version: patch
     secrets:
-      TRANSIFEX_VERSION: ${{ secrets.TRANSIFEX_TOKEN }}
+      TRANSIFEX_TOKEN: ${{ secrets.TRANSIFEX_TOKEN }}
