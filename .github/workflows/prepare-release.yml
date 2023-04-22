@@ -12,3 +12,4 @@ jobs:
       next_version: patch
     secrets:
       TRANSIFEX_TOKEN: ${{ secrets.TRANSIFEX_TOKEN }}
+      RELEASE_PREPARATION_TOKEN: ${{ secrets.RELEASE_PREPARATION_TOKEN }}
