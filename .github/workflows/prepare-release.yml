@@ -5,7 +5,7 @@ on:
 
 jobs:
   prepare_release:
-    uses: hitobito/hitobito/.github/workflows/prepare-version.yml@feature/1975-prepare-release
+    uses: hitobito/hitobito/.github/workflows/prepare-version.yml@master
     with:
       composition: ${{ github.event.repository.name }}
       wagon: pro_natura
