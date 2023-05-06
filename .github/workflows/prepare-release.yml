@@ -8,6 +8,5 @@ jobs:
     uses: hitobito/hitobito/.github/workflows/prepare-version.yml@master
     with:
       composition: ${{ github.event.repository.name }}
-      wagon: pro_natura
       next_version: patch
     secrets: inherit
