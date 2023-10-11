@@ -37,7 +37,7 @@ jobs:
     with:
       composition: ${{ needs.settings.outputs.repo_name }}
       source_ref: ${{ needs.settings.outputs.composition_branch }}
-      project: ${{ needs.settings.outputs.project }}
+      project: 'pro_natura' # ${{ needs.settings.outputs.project }}
       version: ${{ needs.version.outputs.version }}
       stage: ${{ inputs.stage }}
     secrets: inherit
